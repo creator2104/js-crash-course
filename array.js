@@ -26,7 +26,7 @@
 
 // let topCities = ["Berlin" , "Singapore" , "New York"]
 // let hardCopyCities = [...topCities]
-// hardcopy of topcities
+// // hardcopy of topcities
 // hardCopyCities.pop()
 // console.log(hardCopyCities);
 // console.log(topCities);

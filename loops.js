@@ -41,10 +41,12 @@ console.log(multipliedNumbers);
 
 let cities = ['Paris' , 'Tokyo' , 'New york' , 'London']
 let cityList = []
-for (let i = 0; i<=3 ; i++) {
+for (let i = 0; i<=cities.length; i++) {
     cityList.push(cities[i]) 
 }
 console.log(cityList);
+
+
 
 
 
