@@ -1,12 +1,15 @@
 
-// let citites = ['london' , 'new york' , 'paris' , 'berlin']
-// visitedCities = []
-
-// for (let i = 0; i < citites.length; i++) {
-//     if(citites[i]==='paris')
-//     {
-//         continue;
-//     }
-//     visitedCities.push(citites[i])
+// let worldCities = {
+//     'Sydney' : 5000000,
+//     'Tokyo' : 9000000,
+//     'Berlin' : 3500000,
+//     'Paris' : 2200000,
 // }
-// console.log(visitedCities);
+// let largeCities = []
+// for (const population in worldCities) {
+//   if (population<3000000){
+//     continue
+//   }
+//   largeCities[population] = worldCities[population]
+// }
+// console.log(largeCities);
