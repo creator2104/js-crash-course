@@ -1,0 +1,58 @@
+let arr = ['vinit' , 'malay' , 'kush' , 'keval']
+for (i=0 ; i<arr.length ; i++){
+    // console.log(arr[i]);
+}
+
+for (const name of arr) {
+    // console.log(name);
+}
+
+let arr1=[85,97,44,37,76,60]
+let sum = 0
+let total_length = arr1.length
+for (const i of arr1) {
+    sum += i
+} 
+// console.log(`The avg of numbers is ${sum/total_length}`);
+
+let price = [250,645,300,900,50]
+let newprice = []
+
+for (let i = 0; i < price.length; i++) {
+    newprice[i] = price[i] - price[i]/10
+}
+// console.log(newprice);
+
+// array methods
+languages = ['js' , 'java' , 'c' , 'cpp']
+// languages.push('python' , 'go')
+// console.log(languages);
+// let deleteditem = languages.pop()
+// console.log(languages);
+// console.log(deleteditem);
+// let string =languages.toString()
+// console.log(string);
+frameworks = ['django' , 'react' , 'nodejs']
+let cstring = languages.concat(frameworks).toString()
+// console.log(cstring);
+languages.unshift('go')
+// console.log(languages);
+ languages.shift()
+// console.log(languages);
+let str3 = languages.slice(2)
+// console.log(str3);
+languages.splice(1,3,'go','py','cpp')
+// console.log(languages);
+// if u wanna add an element to a specific location of array use this 
+languages.splice(2,0,'js')
+// console.log(languages);
+languages.splice(2,1,'java')
+// console.log(languages);
+
+companies = ['bloomberg' , 'microsoft' , 'uber' , 'Google' , 'IBM' , 'Netflix']
+// companies.shift()
+// console.log(companies);
+companies.splice(2,1,'Ola')
+// console.log(companies);
+companies.push("Amazon")
+console.log(companies)
