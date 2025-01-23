@@ -55,4 +55,27 @@ companies = ['bloomberg' , 'microsoft' , 'uber' , 'Google' , 'IBM' , 'Netflix']
 companies.splice(2,1,'Ola')
 // console.log(companies);
 companies.push("Amazon")
-console.log(companies)
+// console.log(companies)
+
+// some more array methods 
+// below all methods store the value in new array
+// map method - cretes  a new arr with the same results of some operation . The value its callback returns are used to form new arr 
+// let num = [432,54,343,454,3,343]
+// let numArr = num.map((val)=>{
+//     return val
+// })
+// console.log(numArr);
+
+// filter method - creates a new arr of elements that give true for a condition 
+// let num  = [43,52,54,55,44]
+// let numArr = num.filter((val) =>{
+//     return val%2===0
+// })
+// console.log(numArr);
+
+// reduce method - performs some operations & reduces the array to a single value . it returns a single value 
+let num = [3,2,4,2]
+let numArr = num.reduce((previous , current)=>{
+    return sum = previous + current
+})
+console.log(numArr);

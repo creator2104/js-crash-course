@@ -1,15 +1,22 @@
-
-// let worldCities = {
-//     'Sydney' : 5000000,
-//     'Tokyo' : 9000000,
-//     'Berlin' : 3500000,
-//     'Paris' : 2200000,
-// }
-// let largeCities = []
-// for (const population in worldCities) {
-//   if (population<3000000){
-//     continue
+function orderTea (teaType){
+//   function confirmOrder (){
+//     return `order confirmed for ${teaType}`
 //   }
-//   largeCities[population] = worldCities[population]
+//    return confirmOrder()
 // }
-// console.log(largeCities);
+// console.log(orderTea("chai"));
+
+// var x=1 
+// a()
+// b()
+// console.log(x);
+
+// function a(){
+//   var x = 100
+//   console.log(x);
+// }
+
+// function b(){
+//   var x = 10
+//   console.log(x);
+// }

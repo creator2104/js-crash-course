@@ -80,7 +80,7 @@ for (const population in worldCities) {
 let teaCollection = ['earl grey' , 'green tea' , 'chai' , 'oolong tea']
 let availableTeas = []
 
-teaCollection.forEach(tea => {
+teaCollection.forEach(tea => {   
     if(tea==='chai'){
         return
     }

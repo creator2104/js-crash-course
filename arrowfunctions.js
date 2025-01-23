@@ -1,7 +1,7 @@
 // const sum = (a,b) => {
 //     console.log(a+b);
 // }
-// sum(3,44)
+// sum(3,44) 
 
 // let mul = (c,d) =>{
 //     console.log(c*d);
