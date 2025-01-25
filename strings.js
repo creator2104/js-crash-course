@@ -30,11 +30,17 @@
 let Name = "Vinit"
 let username  = "   @"+Name+Name.length
 console.log(username.trim());
+// trim used to remove extra space 
+// there is also trimstart and trimend in methods of string 
 
+// another way of defining string 
 const gameName = new String('hitesh')
 console.log(gameName);
-
-console.log(gameName.substring(0,4));
+console.log(gameName.substring(0,4));  //hite - output   (substring can hold positive values only)
 console.log(gameName.indexOf('t'));
-console.log(gameName.slice(0,3));
+console.log(gameName.slice(0,3));   //(slice can hold positive as well as negative values)
 // console.log(gameName.slice(-8,0));
+
+let name = "vinit-rajeshbhai-prajapati"
+console.log(name.split("-"));
+// It cuts and separate the values by - in the array
