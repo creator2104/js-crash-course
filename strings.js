@@ -27,6 +27,14 @@
 // console.log(str4);
 // console.log(str4.replaceAll("l" , "L")); 
 
-let Name = prompt("enter your full name:")
-let username  = "@"+Name+Name.length
+let Name = "Vinit"
+let username  = "   @"+Name+Name.length
 console.log(username.trim());
+
+const gameName = new String('hitesh')
+console.log(gameName);
+
+console.log(gameName.substring(0,4));
+console.log(gameName.indexOf('t'));
+console.log(gameName.slice(0,3));
+// console.log(gameName.slice(-8,0));
