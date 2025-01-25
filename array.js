@@ -38,6 +38,9 @@ asiancities = ['Tokyo' , 'Bangkok']
 // that's not a good way to define addition of an array
 worldCities = earupeanCities.concat(asiancities)
 // console.log(worldCities);
+// dont use concat for multiple arrays
+// use ... 
+let allcities = [...earupeanCities , ...asiancities , ...topCities]
 
 let teaMenu = ['Masala chai' , 'oolong tea' , 'green tea' , 'earl grey']
 // console.log(teaMenu.length);

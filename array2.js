@@ -79,3 +79,18 @@ let numArr = num.reduce((previous , current)=>{
     return sum = previous + current
 })
 console.log(numArr);
+
+const anotherarray = [1,2,3,[4,5],6,7,[4,5,7,[5,6]]]
+const real_anotherarray = anotherarray.flat(Infinity)
+console.log(real_anotherarray);
+// used to spread out the value 
+
+console.log(Array.isArray('Vinit'));
+console.log(Array.from('Vinit')); //it converts string into array 
+console.log(Array.from({name : "rajesh"})); //it gives blank braces coz of dont know to apply the array on key or value 
+
+let score1 = 100
+let score2 = 200
+let score3 = 300
+console.log(Array.of(score1,score2,score3));
+// it used to store multiple data into single array 
