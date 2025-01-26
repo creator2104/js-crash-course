@@ -1,4 +1,4 @@
-function orderTea (teaType){
+// function orderTea (teaType){
 //   function confirmOrder (){
 //     return `order confirmed for ${teaType}`
 //   }
