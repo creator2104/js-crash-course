@@ -14,10 +14,3 @@ let sum = 0
 // }
 // console.log(sum);
 
-
-function printMultiplicationTable(n) {
- for (let i = 1; i <= 10; i++) {
-     console.log(n,"*",i,"=",n*i);
- }
-}
-printMultiplicationTable(prompt('ooih'))

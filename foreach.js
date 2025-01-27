@@ -34,8 +34,8 @@
 // {
 //     return val**2 
 // })
-// console.log(newArr);
-// console.log(values);
+// console.log(newArr)
+// console.log(values)
 
 // let Arr = [1,2,3,4,5,6,7,8,9]
 // let evenArr = Arr.filter((val) =>{
@@ -56,20 +56,20 @@
 // })
 // console.log(sm);
 
-let num = prompt["Enter a number"]
-let numArray = []
-for (let i=1;i<=num.length;i++) {
-    numArray[i-1] = i
-}
-console.log(numArray);
+// let num = prompt["Enter a number"]
+// let numArray = []
+// for (let i=1;i<=num.length;i++) {
+//     numArray[i-1] = i
+// }
+// console.log(numArray);
 
-let sum = numArray.reduce((previous,current)=>{
-      return previous + current   
-})
-console.log("sum"=sum);
+// let sum = numArray.reduce((previous,current)=>{
+//       return previous + current   
+// })
+// console.log("sum"=sum);
 
-let fact = numArray.reduce((previous,current)=>{
-      return previous * current   
-})
-console.log("factorial"=fact);
+// let fact = numArray.reduce((previous,current)=>{
+//       return previous * current   
+// })
+// console.log("factorial"=fact);
 

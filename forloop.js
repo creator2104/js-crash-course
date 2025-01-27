@@ -32,15 +32,15 @@ for (const num of numbers) {
 }
 // console.log(smallNumbers);
 
-teas = ['chai' , 'green tea' , 'herbal tea' , 'black tea']
-teaCollection = []
-for (const tea of teas) {
-    if(tea==='herbal tea'){
-        continue
-    }
-    teaCollection.push(tea)
-}
-// console.log(teaCollection);
+// teas = ['chai' , 'green tea' , 'herbal tea' , 'black tea']
+// teaCollection = []
+// for (const tea of teas) {
+//     if(tea==='herbal tea'){
+//         continue
+//     }
+//     teaCollection.push(tea)
+// }
+// // console.log(teaCollection);
 
 let cititesPopulation={
     'London':8900000,
@@ -49,6 +49,7 @@ let cititesPopulation={
     'Berlin':3500000
 }
 let cityNewP={}
+// console.log(Object.keys(cititesPopulation));
 // console.log(Object.values(cititesPopulation));
 
 for (const city in cititesPopulation) {
@@ -96,7 +97,7 @@ Cities.forEach(cty => {
     }
     traveledCities.push(cty)
 });
-console.log(traveledCities);
+// console.log(traveledCities);
 
 num = [2,5,7,9]
 doubledNumbers = []

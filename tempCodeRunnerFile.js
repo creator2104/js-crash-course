@@ -1,22 +1,9 @@
-// function orderTea (teaType){
-//   function confirmOrder (){
-//     return `order confirmed for ${teaType}`
-//   }
-//    return confirmOrder()
+// teas = ['chai' , 'green tea' , 'herbal tea' , 'black tea']
+// teaCollection = []
+// for (const tea of teas) {
+//     if(tea==='herbal tea'){
+//         continue
+//     }
+//     teaCollection.push(tea)
 // }
-// console.log(orderTea("chai"));
-
-// var x=1 
-// a()
-// b()
-// console.log(x);
-
-// function a(){
-//   var x = 100
-//   console.log(x);
-// }
-
-// function b(){
-//   var x = 10
-//   console.log(x);
-// }
+// // console.log(teaCollection);

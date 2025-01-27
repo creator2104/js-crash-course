@@ -4,9 +4,9 @@ const balance = new Number(2300.347)
 // this  will convert the data into number type and its another method to store the variables
 
 // console.log(score);
-console.log(balance.toString().length);
-console.log(balance.toFixed(4));
-console.log(balance.toPrecision(6));
+// console.log(balance.toString().length);
+// console.log(balance.toFixed(4));
+console.log(balance.toPrecision(7));
 
 const hundreds = 1000000
 console.log(hundreds.toLocaleString('en-IN'));

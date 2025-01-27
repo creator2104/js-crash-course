@@ -20,11 +20,11 @@ let newdate = new Date("04-21-2004")  //mm-dd-yyyy or yyyy-mm-dd
 let myTimeStamp = Date.now()
 // console.log(myTimeStamp);
 // console.log(newdate.getTime());
-console.log(Math.floor(Date.now()/1000));
+// console.log(Math.floor(Date.now()/1000));
 
 let newdate2 = new Date("11-21-2004")
-console.log(newdate2.getMonth() + 1);
-console.log(newdate2.getDate());
+// console.log(newdate2.getMonth() + 1);
+// console.log(newdate2.getDate());
 
 newdate.toLocaleString('default',{
     weekday:'long'
