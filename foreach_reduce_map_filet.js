@@ -3,16 +3,16 @@
 //     // console.log(val);
 // });
 // // console.log(values);
-// // In for each loop we dont consider function name in function back 
+// // In for each loop we dont consider function name in function back
 
 // const mynums = [1,2,3,4,5,6,7,8,9,10]
 
 // // const newNums = mynums.filter((num) => num >5)
-// // for one line dont use return property 
+// // for one line dont use return property
 // const newNums = mynums.filter((num)=>{
 // return num >5
 // })
-// // in curly braces we have to give return property for functions 
+// // in curly braces we have to give return property for functions
 // // console.log(newNums);
 
 // const numbers = []
@@ -49,12 +49,56 @@
 // console.log(nums);
 
 // myNumbers.forEach(variable => {
-//     let no 
+//     let no
 //     no = variable + 10
 //     console.log(no);
 // });
 
-const myNumbers = [1,2,3,4,5,6,7,8,9,10]
-const newNums = myNumbers.map((num)=>{
-  console.log(num * 10);
-}).map()
+// const myNumbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+// const newNums = myNumbers
+//   .map((num) => {
+//     return num * 10;
+//   })
+//   .map((num) => {
+//     return num + 1;
+//   })
+//   .filter((num)=>{
+//     return num >=40
+//   })
+// console.log(newNums);
+
+// reduce
+const myNums = [1, 2, 3];
+let myTotal = myNums.reduce(function (acc, curval) {
+  console.log(`accumulator value is :${acc} and current value is ${curval}`);
+  return acc + curval
+}, 0);
+// 0 defines the accumulator starting value 
+console.log(myTotal);
+
+myTotal = myNums.reduce((acc,curr)=>acc+curr,0)
+console.log(myTotal);
+
+const shoppingCart = [
+    {
+        itemName : "js course",
+        price : 2999
+    },
+    {
+        itemName : "py course",
+        price : 999
+    },
+    {
+        itemName : "mobile dev course",
+        price : 5999
+    },
+    {
+        itemName : "data science course",
+        price : 12999
+    }
+]
+
+const priceToPay = shoppingCart.reduce((acc,item) =>{
+    return acc + item.price
+},0)
+console.log(priceToPay);
