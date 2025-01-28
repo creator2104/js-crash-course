@@ -1,9 +1,4 @@
-// teas = ['chai' , 'green tea' , 'herbal tea' , 'black tea']
-// teaCollection = []
-// for (const tea of teas) {
-//     if(tea==='herbal tea'){
-//         continue
-//     }
-//     teaCollection.push(tea)
+
+//     game1 : "NFS",
+//     game2 : "Spiderman"
 // }
-// // console.log(teaCollection);

@@ -37,3 +37,8 @@ console.log(JSuser.greetings());
 console.log(JSuser.greetingstwo());
 console.log(JSuser.greetings);
 
+const emptyobject = {}
+
+if(console.log(Object.keys(emptyobjectobject).length===0)){
+    console.log('object is empty');
+}
