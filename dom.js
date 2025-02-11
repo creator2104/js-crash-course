@@ -2,9 +2,7 @@
 
 /*
 
-
-
-   //access the element by class or id
+  //access the element by class or id
   1.document is used to select whole page which we are designing
 
   2.document.getElementById('Name_of _your_id_or_class')  

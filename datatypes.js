@@ -55,3 +55,6 @@ console.log(anotheruser[1]);
 
 console.log('1' + 1);
 console.log("1" + 1);
+
+let score = ""
+console.log(Boolean(score));
