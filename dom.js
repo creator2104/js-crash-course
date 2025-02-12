@@ -127,3 +127,8 @@ const min = 1
 const max = 6
 
 console.log(Math.floor(Math.random()*(max-min+1)+min));
+
+const user = {
+  username:"vinit"
+}
+console.log(Array.from(...Object.keys(user)));

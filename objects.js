@@ -31,7 +31,7 @@ JSuser.greetings = function (){
 }
 
 JSuser.greetingstwo = function(){
-    console.log(`Hello js user,${this.name}`);
+    console.log(`Hello js user ${this.name}`);
 }
 console.log(JSuser.greetings());
 console.log(JSuser.greetingstwo());

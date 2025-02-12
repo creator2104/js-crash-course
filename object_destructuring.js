@@ -7,5 +7,5 @@ const course = {
 // course.courseInstructor
 // instead of this use below one 
 let{courseInstructor:Instructor} = course
-// if we write anything in curlybraces then consider it in destructuring 
+// if any text is being written in curlybraces then consider it in destructuring 
 console.log(Instructor);
