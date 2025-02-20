@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Chai aur code</h1>
+    <button id="stop">Stop</button>
+</body>
+<script>
+    const myname = function(){
+        console.log("Vinit");
+    }
+    setTimeout(myname, 2000);
+
+    // if i want to change the inner text of h1
+
+    const changetext = function () {
+        document.querySelector("h1").innerText = "Code and chai"
+    }
+    const changeMe =  setTimeout(changetext, 2000);
+    document.querySelector("button").addEventListener("click",function(){
+        clearTimeout(changeMe)
+        console.log("STOPPED");
+    }) 
+
+
+</script>
+</html>
