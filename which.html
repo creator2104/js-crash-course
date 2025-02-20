@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<body onmousedown="WhichButton(event)" style="border:1px solid black;padding:8px">
+<h1>Mouse Events</h1>
+<h2>The which Property</h2>
+
+<p>Click in this page with one of your mouse buttons.</p>
+<p>1 = The left mouse button</p>
+<p>2 = The middle mouse button</p>
+<p>3 = The right mouse button</p>
+
+<p id="demo"></p>
+
+<script>
+function WhichButton(event) {
+  document.getElementById("demo").innerHTML = "You pressed: " + event.which;
+}
+</script>
+
+</body>
+</html>

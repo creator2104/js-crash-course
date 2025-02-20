@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<body onclick="showCoords(event)" style="border:1px solid black;padding:4px">
+
+<h1>Mouse Events</h1>
+<h2>The screenX and screenY Properties</h2>
+
+<div>
+<p>Click different places in this document to view the x and y coordinates of the mouse pointer, relative to the screen.</p>
+<p id="demo"></p>
+</div>
+
+<script>
+function showCoords(event) {
+  let x = event.screenX;
+  let y = event.screenY;
+  let text = "X coords: " + x + ", Y coords: " + y;
+  document.getElementById("demo").innerHTML = text;
+}
+</script>
+
+</body>
+</html>
