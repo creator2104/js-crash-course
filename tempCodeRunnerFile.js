@@ -1,4 +1,6 @@
-);
-// console.log(mydate.toString());
-// console.log(mydate.toLocaleDateString());
-// console.log(mydate.t
+function multiplyBy5(num) {
+//     this.num = num
+//     return num*5
+// }
+
+// multiplyBy5.power = 2
