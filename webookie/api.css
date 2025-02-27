@@ -1,0 +1,39 @@
+.main{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: black;
+}
+
+.indi_product{
+    height: 400px;
+    width: 300px;
+    box-shadow: 0 0 2px gray;
+    border-radius: 10px;
+    background-color: #eaf7fd;
+}
+
+.img{
+ height: 50%;
+ width: 100%;
+ object-fit: contain;   
+}
+
+.title{
+box-sizing: border-box;
+width: 100%;
+padding: 20px;
+text-align: center;
+font-size: large;
+font-weight: bold;
+}
+
+.description{
+    padding-bottom: 20px;
+    box-sizing: border-box;
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+}
