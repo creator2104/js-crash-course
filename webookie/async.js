@@ -13,7 +13,7 @@ async function addme() {
      console.log("after promise");
 }
 
-// if we want .then and .catch functionality in function the n use async 
+// if we want .then and .catch functionality in function then use async 
 // await is used for executing promise data
 
 addme().then(() => {
